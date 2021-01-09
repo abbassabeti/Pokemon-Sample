@@ -4,16 +4,24 @@ This is a take-home challenge written by Abbas SabetiNezhad. This is an app whic
 
 ![screenshot1](https://github.com/abbassabeti/Pokemon-Sample/blob/master/images/scr01.png " ") ![screenshot2](https://github.com/abbassabeti/Pokemon-Sample/blob/master/images/scr02.png " ") ![screenshot3](https://github.com/abbassabeti/Pokemon-Sample/blob/master/images/scr03.png " ")
 
+## Depedencies
+
+This SDK uses:
+        - Moya as its Networking Library ( which is a clean wrapper around Alamofire).
+        - RxSwift/RxCocoa and peripherals for event handling and stream processing.
+        - Kingfisher for caching and loading images asynchronously.
+For integration within your own source code, see Installation instructions below.
+
 ## Installation
 
-PokemonSDK is available through [CocoaPods](https://cocoapods.org). To install
+PokemonSDK is available through [CocoaPods](https://cocoapods.org/pods/PokemonSDK). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
 pod 'PokemonSDK'
 ```
 
-And then, run the app.
+Then, run `pod install` command on the root folder of the project. And Finally, run the app.
 
 ## Author
 
