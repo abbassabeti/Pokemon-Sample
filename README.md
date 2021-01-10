@@ -21,7 +21,7 @@ it, simply add the following line to your Podfile:
 pod 'PokemonSDK'
 ```
 
-Then, run `pod install` command on the root folder of the project. And Finally, run the app. The SDK has also some tests which is its source. There also a pipeline for the test which runs automatically on publish of every new release of it. See SimpleTests.swift in the SDK Repo.
+Then, run `pod install` command on the root folder of the project. And Finally, run the app. The SDK has also some tests which is in its own source. There also a pipeline for the test which runs automatically on publish of every new release of it. See SimpleTests.swift in the SDK Repo.
 
 ## Author
 
