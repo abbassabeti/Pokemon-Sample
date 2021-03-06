@@ -17,22 +17,14 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
         // If this scene's self.window is nil then set a new UIWindow object to it.
-                self.window = self.window ?? UIWindow()
-
-                // Set this scene's window's background color.
-                self.window!.backgroundColor = UIColor.white
-
-                // Create a ViewController object and set it as the scene's window's root view controller.
+            if let windowScene = scene as? UIWindowScene {
+                let window = UIWindow(windowScene: windowScene)
                 let vc =  FinderViewController()
-                guard let navC = vc.provideNavigationController() else {return}
-                self.window!.rootViewController = navC
-
-                // Make this scene's window be visible.
-                self.window!.makeKeyAndVisible()
-
-                guard scene is UIWindowScene else { return }
-                
-                guard let _ = (scene as? UIWindowScene) else { return }
+                guard let navC = vc.provideNavigationController(frame: window.frame) else {return}
+                window.rootViewController = navC
+                self.window = window
+                window.makeKeyAndVisible()
+            }
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {

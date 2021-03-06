@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		056BC94925AA0F1200579F72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 056BC94825AA0F1200579F72 /* Assets.xcassets */; };
 		056BC94C25AA0F1200579F72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 056BC94A25AA0F1200579F72 /* LaunchScreen.storyboard */; };
-		05BAE57425AA375100E24C74 /* PokemonAppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BAE57025AA375100E24C74 /* PokemonAppRouter.swift */; };
-		05BAE57525AA375200E24C74 /* FinderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BAE57225AA375100E24C74 /* FinderViewController.swift */; };
-		05BAE57625AA375200E24C74 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BAE57325AA375100E24C74 /* FavoritesViewController.swift */; };
 		05BAE5C225AA406E00E24C74 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BAE5C025AA406E00E24C74 /* SceneDelegate.swift */; };
 		05BAE5C325AA406E00E24C74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BAE5C125AA406E00E24C74 /* AppDelegate.swift */; };
-		05BAE5C625AA41D500E24C74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05BAE5C525AA41D400E24C74 /* Main.storyboard */; };
+		05FBF37E25F3EB540099D63D /* FinderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FBF37D25F3EB540099D63D /* FinderViewController.swift */; };
+		05FBF38125F3EC9B0099D63D /* FavoritePokemonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FBF38025F3EC9B0099D63D /* FavoritePokemonViewController.swift */; };
+		05FBF38625F3F5960099D63D /* ViewControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FBF38525F3F5960099D63D /* ViewControllers.swift */; };
+		05FBF38925F3FC320099D63D /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FBF38825F3FC320099D63D /* UIView.swift */; };
 		786D6EFF4A77A3192A525C8A /* Pods_SamplePokemon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6714EA7DFC9104CBF9A53EB5 /* Pods_SamplePokemon.framework */; };
 /* End PBXBuildFile section */
 
@@ -23,12 +23,12 @@
 		056BC94825AA0F1200579F72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		056BC94B25AA0F1200579F72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		056BC94D25AA0F1200579F72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		05BAE57025AA375100E24C74 /* PokemonAppRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonAppRouter.swift; sourceTree = "<group>"; };
-		05BAE57225AA375100E24C74 /* FinderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinderViewController.swift; sourceTree = "<group>"; };
-		05BAE57325AA375100E24C74 /* FavoritesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
 		05BAE5C025AA406E00E24C74 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		05BAE5C125AA406E00E24C74 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		05BAE5C525AA41D400E24C74 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		05FBF37D25F3EB540099D63D /* FinderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinderViewController.swift; sourceTree = "<group>"; };
+		05FBF38025F3EC9B0099D63D /* FavoritePokemonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritePokemonViewController.swift; sourceTree = "<group>"; };
+		05FBF38525F3F5960099D63D /* ViewControllers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllers.swift; sourceTree = "<group>"; };
+		05FBF38825F3FC320099D63D /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		0CB9D06A8F94268B8AD1BE04 /* Pods-SamplePokemon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SamplePokemon.release.xcconfig"; path = "Target Support Files/Pods-SamplePokemon/Pods-SamplePokemon.release.xcconfig"; sourceTree = "<group>"; };
 		6714EA7DFC9104CBF9A53EB5 /* Pods_SamplePokemon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SamplePokemon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACC951FE97717A5AF60169E9 /* Pods-SamplePokemon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SamplePokemon.debug.xcconfig"; path = "Target Support Files/Pods-SamplePokemon/Pods-SamplePokemon.debug.xcconfig"; sourceTree = "<group>"; };
@@ -67,35 +67,25 @@
 		056BC93E25AA0F0E00579F72 /* SamplePokemon */ = {
 			isa = PBXGroup;
 			children = (
-				05BAE5C525AA41D400E24C74 /* Main.storyboard */,
+				05FBF38425F3F5890099D63D /* Extensions */,
 				05BAE5C125AA406E00E24C74 /* AppDelegate.swift */,
 				05BAE5C025AA406E00E24C74 /* SceneDelegate.swift */,
-				05BAE56F25AA375100E24C74 /* Router */,
-				05BAE57125AA375100E24C74 /* ViewControllers */,
 				056BC94825AA0F1200579F72 /* Assets.xcassets */,
 				056BC94A25AA0F1200579F72 /* LaunchScreen.storyboard */,
 				056BC94D25AA0F1200579F72 /* Info.plist */,
+				05FBF37D25F3EB540099D63D /* FinderViewController.swift */,
+				05FBF38025F3EC9B0099D63D /* FavoritePokemonViewController.swift */,
 			);
 			path = SamplePokemon;
 			sourceTree = "<group>";
 		};
-		05BAE56F25AA375100E24C74 /* Router */ = {
+		05FBF38425F3F5890099D63D /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				05BAE57025AA375100E24C74 /* PokemonAppRouter.swift */,
+				05FBF38525F3F5960099D63D /* ViewControllers.swift */,
+				05FBF38825F3FC320099D63D /* UIView.swift */,
 			);
-			name = Router;
-			path = ../../../Pokemon/Pokemon/Router;
-			sourceTree = "<group>";
-		};
-		05BAE57125AA375100E24C74 /* ViewControllers */ = {
-			isa = PBXGroup;
-			children = (
-				05BAE57225AA375100E24C74 /* FinderViewController.swift */,
-				05BAE57325AA375100E24C74 /* FavoritesViewController.swift */,
-			);
-			name = ViewControllers;
-			path = ../../../Pokemon/Pokemon/ViewControllers;
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		5D9497BCED3DF2E5D82C4860 /* Frameworks */ = {
@@ -174,7 +164,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05BAE5C625AA41D500E24C74 /* Main.storyboard in Resources */,
 				056BC94C25AA0F1200579F72 /* LaunchScreen.storyboard in Resources */,
 				056BC94925AA0F1200579F72 /* Assets.xcassets in Resources */,
 			);
@@ -229,10 +218,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05BAE57525AA375200E24C74 /* FinderViewController.swift in Sources */,
-				05BAE57425AA375100E24C74 /* PokemonAppRouter.swift in Sources */,
-				05BAE57625AA375200E24C74 /* FavoritesViewController.swift in Sources */,
+				05FBF38125F3EC9B0099D63D /* FavoritePokemonViewController.swift in Sources */,
 				05BAE5C325AA406E00E24C74 /* AppDelegate.swift in Sources */,
+				05FBF38625F3F5960099D63D /* ViewControllers.swift in Sources */,
+				05FBF37E25F3EB540099D63D /* FinderViewController.swift in Sources */,
+				05FBF38925F3FC320099D63D /* UIView.swift in Sources */,
 				05BAE5C225AA406E00E24C74 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
