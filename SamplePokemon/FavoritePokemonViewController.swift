@@ -39,4 +39,9 @@ class FavoritePokemonViewController : UIViewController
             favoriteView.trailingAnchor.constraint(equalTo: self.view.trailingAnchor)
         ])
     }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        self.navigationItem.backBarButtonItem?.accessibilityIdentifier = "favorites_back_button"
+    }
 }

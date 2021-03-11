@@ -48,7 +48,9 @@ class FinderViewController : UIViewController {
         nvc.view.frame = frame
         self.title = "Pokemon Search"
         
-        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Favorites", style: .plain, target: self, action: #selector(goToFavorite))
+        let btn = UIBarButtonItem(title: "Favorites", style: .plain, target: self, action: #selector(goToFavorite))
+        btn.accessibilityIdentifier = "favorites_navigation_button"
+        navigationItem.rightBarButtonItem = btn
 
         return nvc
     }

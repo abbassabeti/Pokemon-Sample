@@ -9,5 +9,5 @@ target 'SamplePokemon' do
 
   # Pods for PokemonSample
 
-  pod 'PokemonSDK', :git => 'https://github.com/abbassabeti/PokemonPod.git' ,:tag => '0.0.10'
+  pod 'PokemonSDK', :git => 'https://github.com/abbassabeti/PokemonSDK.git' ,:tag => '0.0.24'
 end
