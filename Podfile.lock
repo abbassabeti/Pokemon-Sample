@@ -6,7 +6,7 @@ PODS:
   - Moya/RxSwift (14.0.0-beta.2):
     - Moya/Core
     - RxSwift (~> 5.0)
-  - PokemonSDK (0.0.24):
+  - PokemonSDK (0.0.27):
     - Kingfisher
     - Moya/RxSwift (= 14.0.0-beta.2)
     - RxCocoa
@@ -22,7 +22,7 @@ PODS:
   - RxSwift (5.1.2)
 
 DEPENDENCIES:
-  - PokemonSDK (from `https://github.com/abbassabeti/PokemonSDK.git`, tag `0.0.24`)
+  - PokemonSDK (from `https://github.com/abbassabeti/PokemonSDK.git`, tag `0.0.27`)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
@@ -37,23 +37,23 @@ SPEC REPOS:
 EXTERNAL SOURCES:
   PokemonSDK:
     :git: https://github.com/abbassabeti/PokemonSDK.git
-    :tag: 0.0.24
+    :tag: 0.0.27
 
 CHECKOUT OPTIONS:
   PokemonSDK:
     :git: https://github.com/abbassabeti/PokemonSDK.git
-    :tag: 0.0.24
+    :tag: 0.0.27
 
 SPEC CHECKSUMS:
   Alamofire: f9450d3c7f6bea2ad62e7a541c3e9b186c7991d6
   Kingfisher: 676d63307fbef6ed5d5ed400bff36983480d7500
   Moya: 788e592b92fadb10e30d350ed1a9f75c91eb1368
-  PokemonSDK: bca8a38e0ec396337c149b8a5aea90acd5c81c1f
+  PokemonSDK: 78b7a43371b0015802d4d448c1c51d5d3659be90
   RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
   RxGesture: d6bd7447ca3a596c7a9702a6a2b6a2bb5d8bae54
   RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
   RxSwift: 1e2e1f9570186967f617e49128ed26ccf1bafc8e
 
-PODFILE CHECKSUM: a6699a4a4b46311a8ac49a9464a2a19d727065e2
+PODFILE CHECKSUM: 7f10651f555ca96f3dca7c2bab10b7f4893f9b90
 
 COCOAPODS: 1.10.1
